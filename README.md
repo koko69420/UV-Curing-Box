@@ -42,6 +42,31 @@ A dedicated, safety-interlocked UV exposure and resin curing chamber controller 
 - **Switching MOSFET**: N-Channel Power MOSFET (low-side switch on A2 driving 395nm/405nm UV LED arrays).
 - **Power Input**: 12V DC input for LED strings with onboard 5V / 3.3V LDO regulation for logic.
 
+---
+
+## Hardware Prototype & Visual Design
+
+### Live Hardware Prototype
+Below is the operational controller prototype executing a countdown exposure on the TM1637 4-digit display:
+
+<p align="center">
+  <img src="display.jpg" alt="UV Curing Box Live Prototype Display" width="550">
+</p>
+
+### Electrical Schematic
+
+<p align="center">
+  <img src="schematic.png" alt="UV Curing Box Schematic" width="800">
+</p>
+
+### PCB Board Layout & Copper Routing
+
+| Complete Board Layout | Top Copper Layer (`F_Cu`) | Bottom Copper Layer (`B_Cu`) |
+| :---: | :---: | :---: |
+| <img src="UV_curing_box.svg" width="240"> | <img src="UV_curing_box-F_Cu.svg" width="240"> | <img src="UV_curing_box-B_Cu.svg" width="240"> |
+
+---
+
 ### Pinout Mapping
 
 | Function | Pin Name | Direction | Description |

@@ -1,0 +1,17 @@
+# PlatformIO artifacts
+.pio/
+.vscode/
+
+# KiCad backup & cache
+*-backups/
+fp-info-cache
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.dsn
+*.lck
+
+# OS & Editor files
+*~
+*.swp
+.DS_Store
